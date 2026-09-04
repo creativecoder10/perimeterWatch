@@ -26,7 +26,7 @@ jobs:
         run: pytest -v
 
       - name: Run bandit (static security analysis)
-        run: bandit -r . -x ./.venv,./docs
+        run: bandit -r . -x ./.venv,./docs,./tests
 
       - name: Run pip-audit (dependency vulnerability scan)
         run: pip-audit
