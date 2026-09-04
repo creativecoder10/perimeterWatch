@@ -3,3 +3,5 @@ python-dotenv
 pytest
 moto[s3,ec2]
 pdoc
+bandit
+pip-audit
